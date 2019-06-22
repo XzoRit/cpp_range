@@ -35,6 +35,7 @@ target_link_libraries(
   PRIVATE
   lib::lib
   Boost::unit_test_framework
+  range-v3
 )
 
 add_test(
